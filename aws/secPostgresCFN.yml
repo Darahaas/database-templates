@@ -109,7 +109,7 @@ Resources:
             DBSubnetGroupName:
                 Ref: DatabaseSubnetGroup    
             DBParameterGroupName: !Ref ParameterGroup
-            PubliclyAccessible: "true"
+            PubliclyAccessible: "false"
             StorageType: "gp2"
             AllocatedStorage: !Ref AllocatedStorage
             BackupRetentionPeriod: 35
@@ -122,8 +122,7 @@ Resources:
             PreferredMaintenanceWindow: mon:03:00-mon:04:00
             DBSubnetGroupName:
                 Ref: DatabaseSubnetGroup
-            StorageEncrypted: true
-            PubliclyAccessible" : false
+            StorageEncrypted: "true"
             VPCSecurityGroups:
                 - Ref: DatabaseSecurityGroup
 
