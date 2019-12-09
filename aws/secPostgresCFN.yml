@@ -123,6 +123,7 @@ Resources:
             DBSubnetGroupName:
                 Ref: DatabaseSubnetGroup
             StorageEncrypted: "true"
+            PubliclyAccessible" : "false"
             VPCSecurityGroups:
                 - Ref: DatabaseSecurityGroup
 
