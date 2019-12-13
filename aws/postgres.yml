@@ -7,7 +7,7 @@ Parameters:
       Type: String
 
     DatabaseInstanceType:
-        Default: db.t2.micro
+        Default: db.t2.small
         AllowedValues:
             - db.t2.micro
             - db.t2.small
