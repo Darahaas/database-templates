@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: RDS PostgreSQL instance.
 Parameters:
     DatabaseName:
-      Default: "AddedSecPostgres2"
+      Default: "AddedSecPostgres"
       Description: The database name (Default "prisma", change if you are creating more than one database)
       Type: String
 
